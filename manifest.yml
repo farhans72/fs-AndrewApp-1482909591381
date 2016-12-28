@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 768M
+  instances: 1
+  domain: mybluemix.net
+  name: fs-AndrewApp
+  host: fs-AndrewApp
+  disk_quota: 1024M
+  services:
+  - fs-AndrewApp-cloudantNoSQLDB
+  - dashDB for Analytics-9t
