@@ -343,7 +343,7 @@ app.get('/api/favorites', function(request, response) {
             if (len == 0) {
                 // push sample data
                 // save doc
-                var docName = 'sample_doc';
+                var docName = 'sample_doc_Andrew';
                 var docDesc = 'A sample Document';
                 db.insert({
                     name: docName,
